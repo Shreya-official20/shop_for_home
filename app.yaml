@@ -1,0 +1,7 @@
+runtime: nodejs16
+handlers:
+- url: /
+  static_files: dist/shop/index.html
+    upload: dist/shop/index.html
+- url: /
+  static_dir: dist/shops
